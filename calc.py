@@ -9,6 +9,7 @@ def calculate_average(numbers):
     total = 0
     # Bug: range(len(numbers) - 1) skips the last element in the list
     # Attempting processing:
+    # Synchronize event test comment
     for i in range(len(numbers) - 1):
         total += numbers[i]
 
